@@ -33,14 +33,10 @@ client.search(searchRequest)
          })
           });
         return eachshop;
+        
       })
 
-      return client.business(eachshop.id).then(response => {
-        eachshop.businessdetails=response.jsonBody;
-        return eachshop;
-      }).catch(e => {
-        console.log(e);
-      });
+     
 
     })).then(function(values){
       res.json(values.map((each)=>{
