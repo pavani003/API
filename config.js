@@ -1,0 +1,4 @@
+var config={
+YELP_API_KEY:'YwVGsgo08WguXOmUQao5BdxlDq0Tek3XLft6NsdTSPvCTSa_uu9WxBmSI3zboviwnVMXBftoJ0KnEfIfKcQGv5In61Uaj7LRQKqITbR3Unrs_AP_RbziVd4fuAWbXXYx'
+}
+module.exports=config;
